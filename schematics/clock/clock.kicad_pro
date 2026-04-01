@@ -412,6 +412,26 @@
     [
       "1be175cd-1437-4d72-8152-541f02e1a99b",
       "Root"
+    ],
+    [
+      "a2ab6e87-bee2-42a5-8573-76b69ae33327",
+      "clock_555"
+    ],
+    [
+      "f3db36de-4cdd-45a0-89eb-0f54d605c95c",
+      "register_A"
+    ],
+    [
+      "c6b53868-f111-479d-a496-fc6d06de9c16",
+      "astable_timer"
+    ],
+    [
+      "33f0bde0-ac88-4867-8570-636c322274bf",
+      "switch"
+    ],
+    [
+      "b1257a77-989b-42f1-9136-d467d78d6c6f",
+      "change_mode"
     ]
   ],
   "text_variables": {}
