@@ -432,6 +432,18 @@
     [
       "b1257a77-989b-42f1-9136-d467d78d6c6f",
       "change_mode"
+    ],
+    [
+      "68612342-0dca-493e-ab60-34c735f08dcb",
+      "bus"
+    ],
+    [
+      "5607958f-0401-41e1-807d-8eb10baf328d",
+      "register_B"
+    ],
+    [
+      "2c393554-e6c7-4edf-918c-cb49ea0f3731",
+      "memory_register"
     ]
   ],
   "text_variables": {}

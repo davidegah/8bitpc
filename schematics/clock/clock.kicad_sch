@@ -5,9 +5,179 @@
 	(uuid "1be175cd-1437-4d72-8152-541f02e1a99b")
 	(paper "A4")
 	(lib_symbols)
+	(global_label "~{CLK}"
+		(shape input)
+		(at 50.8 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c79e6690-2deb-4ece-840f-fa5b00184f2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.2467 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 50.8 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f26b44f5-f337-471f-8c0a-7fe497d9c032")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.2467 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 139.065 78.105)
+		(size 41.275 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c393554-e6c7-4edf-918c-cb49ea0f3731")
+		(property "Sheetname" "memory_register"
+			(at 139.065 77.3934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory_register.kicad_sch"
+			(at 139.065 92.6596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock"
+				(path "/1be175cd-1437-4d72-8152-541f02e1a99b"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 56.515)
+		(size 39.37 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5607958f-0401-41e1-807d-8eb10baf328d")
+		(property "Sheetname" "register_B"
+			(at 138.43 55.8034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "register_B.kicad_sch"
+			(at 138.43 71.0696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock"
+				(path "/1be175cd-1437-4d72-8152-541f02e1a99b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.265 36.83)
+		(size 17.145 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68612342-0dca-493e-ab60-34c735f08dcb")
+		(property "Sheetname" "bus"
+			(at 88.265 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bus.kicad_sch"
+			(at 88.265 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock"
+				(path "/1be175cd-1437-4d72-8152-541f02e1a99b"
+					(page "7")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 42.545 34.925)
-		(size 43.18 10.795)
+		(size 12.7 10.795)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
