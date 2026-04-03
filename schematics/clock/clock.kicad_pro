@@ -418,10 +418,6 @@
       "clock_555"
     ],
     [
-      "f3db36de-4cdd-45a0-89eb-0f54d605c95c",
-      "register_A"
-    ],
-    [
       "c6b53868-f111-479d-a496-fc6d06de9c16",
       "astable_timer"
     ],
@@ -434,12 +430,20 @@
       "change_mode"
     ],
     [
-      "5607958f-0401-41e1-807d-8eb10baf328d",
-      "register_B"
-    ],
-    [
       "2c393554-e6c7-4edf-918c-cb49ea0f3731",
       "instruction_register"
+    ],
+    [
+      "d58d7b4b-c7c9-4a9b-82e5-f70bb60ff1ca",
+      "ALU"
+    ],
+    [
+      "3d0a87ec-a2f4-438c-aa57-9e074d6f2ca0",
+      "ra"
+    ],
+    [
+      "af91bf73-a3ad-42a1-90ad-f08c489005c9",
+      "rb"
     ]
   ],
   "text_variables": {}

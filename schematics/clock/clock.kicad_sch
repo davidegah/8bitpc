@@ -3761,7 +3761,7 @@
 		)
 	)
 	(sheet
-		(at 139.065 78.105)
+		(at 31.75 95.25)
 		(size 41.275 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3777,7 +3777,7 @@
 		)
 		(uuid "2c393554-e6c7-4edf-918c-cb49ea0f3731")
 		(property "Sheetname" "instruction_register"
-			(at 139.065 77.3934 0)
+			(at 31.75 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3786,7 @@
 			)
 		)
 		(property "Sheetfile" "memory_register.kicad_sch"
-			(at 139.065 92.6596 0)
+			(at 31.75 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,48 +3798,6 @@
 			(project "clock"
 				(path "/1be175cd-1437-4d72-8152-541f02e1a99b"
 					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 138.43 56.515)
-		(size 39.37 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5607958f-0401-41e1-807d-8eb10baf328d")
-		(property "Sheetname" "register_B"
-			(at 138.43 55.8034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "register_B.kicad_sch"
-			(at 138.43 71.0696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "clock"
-				(path "/1be175cd-1437-4d72-8152-541f02e1a99b"
-					(page "8")
 				)
 			)
 		)
@@ -3887,8 +3845,8 @@
 		)
 	)
 	(sheet
-		(at 137.16 33.02)
-		(size 38.1 9.525)
+		(at 139.065 52.705)
+		(size 40.005 14.605)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3901,9 +3859,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "f3db36de-4cdd-45a0-89eb-0f54d605c95c")
-		(property "Sheetname" "register_A"
-			(at 137.16 32.3084 0)
+		(uuid "d58d7b4b-c7c9-4a9b-82e5-f70bb60ff1ca")
+		(property "Sheetname" "ALU"
+			(at 139.065 51.9934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,8 +3869,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "register_A.kicad_sch"
-			(at 137.16 43.1296 0)
+		(property "Sheetfile" "ALU.kicad_sch"
+			(at 139.065 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,7 +3881,7 @@
 		(instances
 			(project "clock"
 				(path "/1be175cd-1437-4d72-8152-541f02e1a99b"
-					(page "3")
+					(page "9")
 				)
 			)
 		)
