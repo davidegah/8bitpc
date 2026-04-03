@@ -1464,6 +1464,12 @@
 		(uuid "2ff1188c-f6ce-45c9-8bbe-e0cc42b0ab09")
 	)
 	(junction
+		(at 105.41 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30eacf73-6e0c-4c61-8202-2a0b51b6b82f")
+	)
+	(junction
 		(at 172.72 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1486,6 +1492,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "515ef609-5a02-4542-8a47-bc4d9f306bf5")
+	)
+	(junction
+		(at 111.76 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51b95188-7da9-40f3-b1b2-84a6d4e23d8e")
 	)
 	(junction
 		(at 185.42 60.96)
@@ -1580,6 +1592,16 @@
 			(type default)
 		)
 		(uuid "001d8c9d-46aa-4789-886f-bc047dcca7cf")
+	)
+	(wire
+		(pts
+			(xy 111.76 146.05) (xy 102.87 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0196dbd8-f286-44f3-9b51-b5e7ba2a29a1")
 	)
 	(wire
 		(pts
@@ -1693,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 93.98 77.47)
+			(xy 115.57 77.47) (xy 105.41 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2393,6 +2415,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 77.47) (xy 93.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c333606e-107e-4f4c-9b24-931e4ee08d3f")
+	)
+	(wire
+		(pts
 			(xy 179.07 60.96) (xy 185.42 60.96)
 		)
 		(stroke
@@ -2473,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 146.05) (xy 102.87 146.05)
+			(xy 124.46 146.05) (xy 111.76 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4286,6 +4318,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 111.76 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73b92d02-297f-496f-ace8-6d24a5d7c87e")
+		(property "Reference" "#PWR041"
+			(at 111.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49780be1-cf72-49a0-b19f-89a0107930e5")
+		)
+		(instances
+			(project "clock"
+				(path "/1be175cd-1437-4d72-8152-541f02e1a99b/d58d7b4b-c7c9-4a9b-82e5-f70bb60ff1ca/3d0a87ec-a2f4-438c-aa57-9e074d6f2ca0"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 179.07 78.74 270)
 		(unit 1)
@@ -4706,6 +4804,72 @@
 			(project "clock"
 				(path "/1be175cd-1437-4d72-8152-541f02e1a99b/d58d7b4b-c7c9-4a9b-82e5-f70bb60ff1ca/3d0a87ec-a2f4-438c-aa57-9e074d6f2ca0"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb4ff2aa-e29e-4675-89ce-e1e0cf02c813")
+		(property "Reference" "#PWR040"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14accabf-f07b-421c-9617-7de8d849ee8e")
+		)
+		(instances
+			(project "clock"
+				(path "/1be175cd-1437-4d72-8152-541f02e1a99b/d58d7b4b-c7c9-4a9b-82e5-f70bb60ff1ca/3d0a87ec-a2f4-438c-aa57-9e074d6f2ca0"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
