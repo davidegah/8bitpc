@@ -3761,6 +3761,48 @@
 		)
 	)
 	(sheet
+		(at 130.175 97.79)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f992c46-70e1-4106-aa86-4a28f25fe175")
+		(property "Sheetname" "ram"
+			(at 130.175 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ram.kicad_sch"
+			(at 130.175 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock"
+				(path "/1be175cd-1437-4d72-8152-541f02e1a99b"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 31.75 95.25)
 		(size 41.275 13.97)
 		(exclude_from_sim no)
